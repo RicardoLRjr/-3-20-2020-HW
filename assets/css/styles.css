@@ -46,11 +46,24 @@ main {
 
   /* Visual */
   background: #004D98
+  
 }
+
+/* Modify the background of navBar (h/t https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/)*/ 
+.navbar-custom { 
+	background-color: lightgreen; 
+} 
+
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #004D98 !important;
+}
+
+
+.nav-link {
+color: #EDBB00 !important;
+
 }
 
 .navbar {
@@ -100,7 +113,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #EDBB00;
+  background-color: #A50044;
 }
 
 .text-muted-footer {
