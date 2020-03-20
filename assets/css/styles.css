@@ -30,7 +30,7 @@ main {
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color:#A50044;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -42,26 +42,39 @@ main {
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: #EDBB00;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #004D98
+  
 }
+
+/* Modify the background of navBar (h/t https://www.geeksforgeeks.org/how-to-change-navigation-bar-color-in-bootstrap/)*/ 
+.navbar-custom { 
+	background-color: lightgreen; 
+} 
+
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #004D98 !important;
+}
+
+
+.nav-link {
+color: #EDBB00 !important;
+
 }
 
 .navbar {
-  background: white;
+  background: #A50044;
   border: none;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #A50044;
   }
 }
 /* END NAV */
@@ -100,7 +113,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #666;
+  background-color: #A50044;
 }
 
 .text-muted-footer {
@@ -108,7 +121,7 @@ main {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: whitesmoke;
 }
 
 .two-toned-footer-color {
@@ -117,7 +130,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #004D98;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
