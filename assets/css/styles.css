@@ -4,7 +4,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: url("../imgs/paperbackground.jfif");
 }
 
 html {
@@ -63,7 +63,7 @@ main {
 
 .nav-link {
 color: #EDBB00 !important;
-
+font-weight: bolder;
 }
 
 .navbar {
@@ -121,7 +121,7 @@ color: #EDBB00 !important;
   margin-top: 15px;
 
   /* Typography */
-  color: whitesmoke;
+  color: #EDBB00 !important;
 }
 
 .two-toned-footer-color {
